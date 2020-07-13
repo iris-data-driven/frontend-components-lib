@@ -24,7 +24,11 @@ const generatedTemplates = templates.map(template => template(componentName));
 
 generatedTemplates.forEach(template => {
   fs.writeFileSync(
-    `${componentDirectory}/${componentName}${template.extension}`,
+    `${componentDirectory}/${
+      template.extension.includes('test')
+        ? componentName + template.extension
+        : template.extension
+    }`,
     template.content
   );
 });

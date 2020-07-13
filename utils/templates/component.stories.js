@@ -1,7 +1,7 @@
 module.exports = componentName => ({
   content: `import React from "react";
 
-import ${componentName} from "./${componentName}";
+import ${componentName} from "./";
 
 export default {
     title: "${componentName}"
@@ -9,5 +9,5 @@ export default {
 export const WithBar = () => <${componentName} foo="bar" />;
 export const WithBaz = () => <${componentName} foo="baz" />;
   `,
-  extension: `.stories.tsx`,
+  extension: `stories.tsx`,
 });
