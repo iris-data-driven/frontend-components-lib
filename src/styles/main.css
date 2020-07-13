@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url('./fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url('./fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway SemiBold';
+  src: url('./fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
+}
