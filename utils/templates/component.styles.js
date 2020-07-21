@@ -3,5 +3,5 @@ module.exports = () => ({
   
 export const Wrapper = styled.div\`\`
 `,
-  extension: `.styles.ts`,
+  extension: `styles.ts`,
 });
