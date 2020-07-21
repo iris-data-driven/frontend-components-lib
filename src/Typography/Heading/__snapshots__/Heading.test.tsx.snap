@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading Should render the heading text correctly 1`] = `
+.c0 {
+  font-family: Raleway Bold;
+  font-style: normal;
+  font-size: 25px;
+  line-height: calc(25px * 1.5);
+  color: #333;
+}
+
+<h1
+  class="c0"
+  data-testid="heading"
+  type="h1"
+>
+  This is a heading type 1
+</h1>
+`;

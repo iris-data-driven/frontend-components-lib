@@ -1,7 +1,10 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
+import 'jest-styled-components';
 
 import Heading from './';
+
+import { texts } from '../../styles';
 
 describe('Heading', () => {
   it('Should render the heading text correctly', () => {
@@ -11,5 +14,8 @@ describe('Heading', () => {
 
     const component = screen.getByTestId('heading');
     expect(component).toHaveTextContent(text);
+    expect(component).toMatchSnapshot();
+    expect(component).toHaveStyleRule('color', '#333');
+    expect(component).toHaveStyleRule('font-family', "'Raleway Bold'");
   });
 });

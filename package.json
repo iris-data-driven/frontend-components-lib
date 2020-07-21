@@ -12,8 +12,8 @@
     "build": "rollup --config",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
-    "test-all": "react-scripts test --env=jest-environment-jsdom-sixteen --watchAll",
+    "test": "jest --env=jest-environment-jsdom-sixteen",
+    "test-all": "jest --env=jest-environment-jsdom-sixteen --watchAll",
     "generate": "node utils/create-component",
     "prepublishOnly": "npm run build"
   },
@@ -51,7 +51,8 @@
     "babel-preset-react-app": "9.1.2",
     "identity-obj-proxy": "3.0.0",
     "jest": "26.0.1",
-    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "jest-environment-jsdom-sixteen": "1.0.3",
+    "jest-styled-components": "7.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "rollup": "2.17.1",
@@ -62,9 +63,10 @@
     "sass-loader": "8.0.2",
     "ts-jest": "26.1.0",
     "tslint": "6.1.2",
-    "typescript": "3.9.5"
+    "typescript": "3.9.7"
   },
   "dependencies": {
+    "react-scripts": "3.4.1",
     "styled-components": "5.1.1"
   }
 }
