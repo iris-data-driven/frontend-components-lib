@@ -1,14 +1,14 @@
 module.exports = componentName => ({
   content: `import React, { FC } from 'react';
 
-import { Wrapper } from "./${componentName}.styles"
+import { Wrapper } from "./styles"
 
-import { ${componentName}Props } from "./${componentName}.types";
+import { ${componentName}Props } from "./types";
 
 const ${componentName}: FC<${componentName}Props> = ({ foo }) => (
-    <Wrapper data-testid="${componentName}">{foo}</Wrapper>
+    <Wrapper data-testid="${componentName.toLowerCase()}">{foo}</Wrapper>
 );
 export default ${componentName};
 `,
-  extension: `.tsx`,
+  extension: `index.tsx`,
 });

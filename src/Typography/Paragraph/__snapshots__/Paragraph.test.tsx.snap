@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph Should render the paragraph with the correct text and style 1`] = `
+<p
+  class="sc-AxjAm kXrFfC"
+  role="paragraph"
+  type="p1"
+>
+  This is a paragraph type 1
+</p>
+`;
+
+exports[`Paragraph Should render the paragraph with the correct text and style 2`] = `
+<p
+  class="sc-AxjAm bKicft"
+  role="paragraph"
+  type="p2"
+>
+  This is a paragraph type 2
+</p>
+`;
+
+exports[`Paragraph Should render the paragraph with the correct text and style 3`] = `
+<p
+  class="sc-AxjAm mCUtu"
+  role="paragraph"
+  type="p3"
+>
+  This is a paragraph type 3
+</p>
+`;
+
+exports[`Paragraph Should render the paragraph with the correct text and style 4`] = `
+<p
+  class="sc-AxjAm kFUFEV"
+  role="paragraph"
+  type="p4"
+>
+  This is a paragraph type 4
+</p>
+`;
