@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Heading Should render the heading text correctly 1`] = `
+exports[`Heading Should render the h1 with the correct text and style 1`] = `
 .c0 {
   font-family: Raleway Bold;
   font-style: normal;
@@ -11,9 +11,42 @@ exports[`Heading Should render the heading text correctly 1`] = `
 
 <h1
   class="c0"
-  data-testid="heading"
   type="h1"
 >
   This is a heading type 1
 </h1>
+`;
+
+exports[`Heading Should render the h2 with the correct text and style 1`] = `
+.c0 {
+  font-family: Raleway Bold;
+  font-style: normal;
+  font-size: 22px;
+  line-height: calc(22px * 1.5);
+  color: #333;
+}
+
+<h2
+  class="c0"
+  type="h2"
+>
+  This is a heading type 2
+</h2>
+`;
+
+exports[`Heading Should render the h3 with the correct text and style 1`] = `
+.c0 {
+  font-family: Raleway Bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(16px * 1.5);
+  color: #333;
+}
+
+<h3
+  class="c0"
+  type="h3"
+>
+  This is a heading type 3
+</h3>
 `;

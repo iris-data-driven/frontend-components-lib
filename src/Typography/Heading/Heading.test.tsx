@@ -4,18 +4,35 @@ import 'jest-styled-components';
 
 import Heading from './';
 
-import { texts } from '../../styles';
-
 describe('Heading', () => {
-  it('Should render the heading text correctly', () => {
+  it('Should render the h1 with the correct text and style', () => {
     const text = 'This is a heading type 1';
 
     render(<Heading type="h1">{text}</Heading>);
 
-    const component = screen.getByTestId('heading');
-    expect(component).toHaveTextContent(text);
+    const component = screen.getByRole('heading', { name: text });
     expect(component).toMatchSnapshot();
-    expect(component).toHaveStyleRule('color', '#333');
-    expect(component).toHaveStyleRule('font-family', "'Raleway Bold'");
+    expect(component).toHaveTextContent(text);
+  });
+
+  it('Should render the h2 with the correct text and style', () => {
+    const text = 'This is a heading type 2';
+
+    render(<Heading type="h2">{text}</Heading>);
+
+    const component = screen.getByRole('heading', { name: text });
+    expect(component).toMatchSnapshot();
+
+    expect(component).toHaveTextContent(text);
+  });
+
+  it('Should render the h3 with the correct text and style', () => {
+    const text = 'This is a heading type 3';
+
+    render(<Heading type="h3">{text}</Heading>);
+
+    const component = screen.getByRole('heading', { name: text });
+    expect(component).toMatchSnapshot();
+    expect(component).toHaveTextContent(text);
   });
 });
