@@ -63,10 +63,10 @@
     "sass-loader": "8.0.2",
     "ts-jest": "26.1.0",
     "tslint": "6.1.2",
-    "typescript": "3.9.7"
+    "typescript": "3.9.7",
+    "react-router-dom": "5.2.0"
   },
   "dependencies": {
-    "react-scripts": "3.4.1",
     "styled-components": "5.1.1"
   }
 }
