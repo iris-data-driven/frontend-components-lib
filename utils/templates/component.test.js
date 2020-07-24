@@ -1,6 +1,6 @@
 module.exports = componentName => ({
   content: `import React from "react";
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
 import ${componentName} from "./";
 
@@ -13,11 +13,11 @@ describe("${componentName}", () => {
       foo: "bar"
     };
   });
-  const renderComponent = () => render(<${componentName} {...props} />);
+  
   it("Should render foo text correctly", () => {
     props.foo = "harvey was here";
-    const { getByTestId } = renderComponent();
-    const component = getByTestId("${componentName.toLowerCase()}");
+    render(<${componentName} {...props} />);
+    const component = screen.getByTestId("${componentName.toLowerCase()}");
     expect(component).toHaveTextContent("harvey was here");
   });
 });
