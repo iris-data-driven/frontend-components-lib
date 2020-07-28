@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-  import { StoryWrapper } from 'styles/helpers';
-
-
-import Link from "./";
+import LinkComponent from './';
 
 export default {
-    title: "Link"
+  title: 'Navigation|Link',
 };
-export const WithBar = () =>  (<StoryWrapper><Link foo="bar" /> </StoryWrapper>);
-export const WithBaz = () =>  (<StoryWrapper><Link foo="baz" /> </StoryWrapper>);
-  
+
+export const Link = () => (
+  <Router>
+    <LinkComponent to="/">Link</LinkComponent>
+  </Router>
+);

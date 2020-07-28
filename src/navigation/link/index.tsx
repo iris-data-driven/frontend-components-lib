@@ -1,16 +1,16 @@
 import React, { FC } from 'react';
-import { Link } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 
-import Paragraph from 'Typography/Paragraph';
+import Paragraph from 'typography/paragraph';
 
 import { LinkProps } from './types';
 
 import { getParagraphType } from './utils';
 
 const Link: FC<LinkProps> = ({ children, to, type }) => (
-  <Link to={to}>
+  <RouterLink to={to}>
     <Paragraph type={getParagraphType(type)}>{children}</Paragraph>
-  </Link>
+  </RouterLink>
 );
 
 export default Link;
