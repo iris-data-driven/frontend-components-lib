@@ -8,13 +8,12 @@ import { Wrapper } from './styles';
 
 import { PaginationProps } from './types';
 
-const Pagination: FC<PaginationProps> = () => {
-  const totalPages = 20;
+const Pagination: FC<PaginationProps> = ({ totalPages, onChangePage }) => {
   const [currentPage, setcurrentPage] = useState(1);
 
   const changePage = (page: number) => {
-    // console.log('page', page);
     setcurrentPage(page);
+    onChangePage(page);
   };
 
   return (

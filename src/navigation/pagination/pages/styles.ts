@@ -13,12 +13,12 @@ export const Wrapper = styled.div`
 export const PageButton = styled(Paragraph)<PageButtonProps>`
   display: flex;
   user-select: none;
+  font-weight: ${props => props.active && 'bold'};
 
   & > *:not(:last-child) {
     padding-right: 8px;
+    color: ${colors.primary.blue};
   }
 `;
 
-export const Dots = styled.div`
-  color: ${colors.primary.blue};
-`;
+export const Dots = styled.div``;

@@ -1,7 +1,5 @@
 import React, { FC } from 'react';
 
-import Paragraph from 'typography/paragraph';
-
 import { Wrapper, PageButton, Dots } from './styles';
 
 import { pages } from './utils';
@@ -10,8 +8,8 @@ import { PagesProps } from './types';
 
 export const Pages: FC<PagesProps> = ({
   currentPage,
-  changePage,
   totalPages,
+  changePage,
 }) => (
   <Wrapper>
     <>
@@ -19,7 +17,11 @@ export const Pages: FC<PagesProps> = ({
         typeof value === 'string' ? (
           <Dots>{value}</Dots>
         ) : (
-          <PageButton value={value} onClick={() => changePage(value)}>
+          <PageButton
+            value={value}
+            active={currentPage == value}
+            onClick={() => changePage(value)}
+          >
             {value}
           </PageButton>
         )

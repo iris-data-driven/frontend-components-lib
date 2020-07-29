@@ -9,6 +9,6 @@ export default {
 };
 export const Pagination = () => (
   <StoryWrapper>
-    <PaginationComponent />
+    <PaginationComponent totalPages={20} onChangePage={() => {}} />
   </StoryWrapper>
 );

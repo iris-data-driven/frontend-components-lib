@@ -8,5 +8,6 @@ export type PagesProps = {
 
 export type PageButtonProps = {
   value: number;
+  active: boolean;
   onClick: (event: ReactMouseEvent<HTMLButtonElement, MouseEvent>) => void;
 };
