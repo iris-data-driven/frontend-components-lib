@@ -1,10 +1,40 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 
-import { Wrapper } from "./styles"
+import PreviousPage from './previousPage';
+import Pages from './pages';
+import NextPage from './nextPage';
 
-import { PaginationProps } from "./types";
+import { Wrapper } from './styles';
 
-const Pagination: FC<PaginationProps> = ({ foo }) => (
-    <Wrapper data-testid="pagination">{foo}</Wrapper>
-);
+import { PaginationProps } from './types';
+
+const Pagination: FC<PaginationProps> = () => {
+  const totalPages = 20;
+  const [currentPage, setcurrentPage] = useState(1);
+
+  const changePage = (page: number) => {
+    // console.log('page', page);
+    setcurrentPage(page);
+  };
+
+  return (
+    <>
+      {`Current page: ${currentPage}  `}
+      <br />
+      <Wrapper>
+        <PreviousPage currentPage={currentPage} changePage={changePage} />
+        <Pages
+          changePage={changePage}
+          currentPage={currentPage}
+          totalPages={totalPages}
+        />
+        <NextPage
+          currentPage={currentPage}
+          changePage={changePage}
+          totalPages={totalPages}
+        />
+      </Wrapper>
+    </>
+  );
+};
 export default Pagination;

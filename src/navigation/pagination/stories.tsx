@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react';
 
-  import { StoryWrapper } from 'styles/helpers';
+import { StoryWrapper } from 'styles/helpers';
 
-
-import Pagination from "./";
+import PaginationComponent from './';
 
 export default {
-    title: "Pagination"
+  title: 'Pagination|Pagination',
 };
-export const WithBar = () =>  (<StoryWrapper><Pagination foo="bar" /> </StoryWrapper>);
-export const WithBaz = () =>  (<StoryWrapper><Pagination foo="baz" /> </StoryWrapper>);
-  
+export const Pagination = () => (
+  <StoryWrapper>
+    <PaginationComponent />
+  </StoryWrapper>
+);

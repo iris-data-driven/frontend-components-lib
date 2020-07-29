@@ -10,4 +10,8 @@ const Paragraph: FC<ParagraphProps> = ({ type, children }) => (
   </Wrapper>
 );
 
+Paragraph.defaultProps = {
+  type: 'p1',
+};
+
 export default Paragraph;
