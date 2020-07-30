@@ -8,7 +8,7 @@ import { LinkProps } from './types';
 import { getParagraphType } from './utils';
 
 const Link: FC<LinkProps> = ({ children, to, type }) => (
-  <RouterLink to={to}>
+  <RouterLink to={to} role="link">
     <Paragraph type={getParagraphType(type)}>{children}</Paragraph>
   </RouterLink>
 );

@@ -11,5 +11,6 @@ export const Wrapper = styled.div<WrapperType>`
       props.isClickable ? colors.primary.blue : colors.neutral.greyDark};
     transition: color 0.5s;
     user-select: none;
+    margin: 0;
   }
 `;

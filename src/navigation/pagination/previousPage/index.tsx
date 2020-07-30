@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from 'react';
+import React, { FC } from 'react';
 
 import Paragraph from 'typography/paragraph';
 
@@ -11,7 +11,7 @@ export const PreviousPage: FC<PreviousPageProps> = ({
   changePage,
 }) => {
   const previousPage = currentPage - 1;
-  const isClickable = !!currentPage;
+  const isClickable = currentPage > 1;
 
   return (
     <Wrapper

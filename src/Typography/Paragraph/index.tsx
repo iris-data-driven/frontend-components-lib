@@ -4,8 +4,13 @@ import { Wrapper } from './styles';
 
 import { ParagraphProps } from './types';
 
-const Paragraph: FC<ParagraphProps> = ({ type, children }) => (
-  <Wrapper role="paragraph" type={type}>
+const Paragraph: FC<ParagraphProps> = ({
+  type,
+  children,
+  className,
+  onClick,
+}) => (
+  <Wrapper role="paragraph" type={type} className={className} onClick={onClick}>
     {children}
   </Wrapper>
 );

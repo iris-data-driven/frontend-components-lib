@@ -1,5 +1,8 @@
-export const pages = (totalPage, currentPage) => {
-  if (currentPage < 5) {
+export const pages = (
+  totalPage: number,
+  currentPage: number
+): (number | string)[] => {
+  if (currentPage < 6) {
     return [1, 2, 3, 4, 5, '...', totalPage];
   } else if (currentPage < totalPage - 4) {
     return [
@@ -13,15 +16,13 @@ export const pages = (totalPage, currentPage) => {
     ];
   } else {
     return [
-      [
-        1,
-        '...',
-        totalPage - 4,
-        totalPage - 3,
-        totalPage - 2,
-        totalPage - 1,
-        totalPage,
-      ],
+      1,
+      '...',
+      totalPage - 4,
+      totalPage - 3,
+      totalPage - 2,
+      totalPage - 1,
+      totalPage,
     ];
   }
 };

@@ -1,8 +1,8 @@
-import React, { FC, useEffect } from 'react';
+import React, { FC } from 'react';
 
 import Paragraph from 'typography/paragraph';
 
-import { Wrapper } from './styles';
+import { Wrapper, NextPageIcon } from './styles';
 
 import { NextPageProps } from './types';
 
@@ -11,18 +11,19 @@ const NextPage: FC<NextPageProps> = ({
   changePage,
   totalPages,
 }) => {
+  const NextIcon = require('./back.svg');
+
   const nextPage = currentPage + 1;
-  const isClickable = nextPage < totalPages;
+  const isClickable = nextPage <= totalPages;
 
   return (
     <Wrapper
       onClick={() => isClickable && changePage(nextPage)}
       isClickable={isClickable}
+      role="next-page-button"
     >
-      {
-        // TODO: botar icon de próxima
-      }
       <Paragraph type="p2">Próxima</Paragraph>
+      <NextPageIcon src={NextIcon} alt="Next Page" />
     </Wrapper>
   );
 };

@@ -12,28 +12,25 @@ const Pagination: FC<PaginationProps> = ({ totalPages, onChangePage }) => {
   const [currentPage, setcurrentPage] = useState(1);
 
   const changePage = (page: number) => {
+    console.log('page', page);
     setcurrentPage(page);
     onChangePage(page);
   };
 
   return (
-    <>
-      {`Current page: ${currentPage}  `}
-      <br />
-      <Wrapper>
-        <PreviousPage currentPage={currentPage} changePage={changePage} />
-        <Pages
-          changePage={changePage}
-          currentPage={currentPage}
-          totalPages={totalPages}
-        />
-        <NextPage
-          currentPage={currentPage}
-          changePage={changePage}
-          totalPages={totalPages}
-        />
-      </Wrapper>
-    </>
+    <Wrapper role="pagination">
+      <PreviousPage currentPage={currentPage} changePage={changePage} />
+      <Pages
+        changePage={changePage}
+        currentPage={currentPage}
+        totalPages={totalPages}
+      />
+      <NextPage
+        currentPage={currentPage}
+        changePage={changePage}
+        totalPages={totalPages}
+      />
+    </Wrapper>
   );
 };
 export default Pagination;

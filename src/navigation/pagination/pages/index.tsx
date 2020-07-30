@@ -12,21 +12,23 @@ export const Pages: FC<PagesProps> = ({
   changePage,
 }) => (
   <Wrapper>
-    <>
-      {pages(totalPages, currentPage).map(value =>
-        typeof value === 'string' ? (
-          <Dots>{value}</Dots>
-        ) : (
-          <PageButton
-            value={value}
-            active={currentPage == value}
-            onClick={() => changePage(value)}
-          >
-            {value}
-          </PageButton>
-        )
-      )}
-    </>
+    {pages(totalPages, currentPage).map((value, index) =>
+      typeof value === 'string' ? (
+        <Dots key={`${value}${index}`} type="p2">
+          {value}
+        </Dots>
+      ) : (
+        <PageButton
+          key={value}
+          value={value}
+          active={currentPage == value}
+          onClick={() => changePage(value)}
+          type="p2"
+        >
+          {value}
+        </PageButton>
+      )
+    )}
   </Wrapper>
 );
 

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Should match the snapshot 1`] = `
+<div
+  class="sc-AxheI kpKIAc"
+  role="pagination"
+>
+  <div
+    class="sc-AxirZ koqNDf"
+  >
+    <p
+      class="sc-AxjAm bKicft"
+      role="paragraph"
+      type="p2"
+    >
+      Anterior
+    </p>
+  </div>
+  <div
+    class="sc-AxiKw drOIHT"
+  >
+    <p
+      class="sc-AxjAm bKicft sc-AxhCb dbRPRi"
+      role="paragraph"
+      type="p2"
+    >
+      1
+    </p>
+    <p
+      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      role="paragraph"
+      type="p2"
+    >
+      2
+    </p>
+    <p
+      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      role="paragraph"
+      type="p2"
+    >
+      3
+    </p>
+    <p
+      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      role="paragraph"
+      type="p2"
+    >
+      4
+    </p>
+    <p
+      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      role="paragraph"
+      type="p2"
+    >
+      5
+    </p>
+    <p
+      class="sc-AxjAm bKicft sc-AxhUy ipWxVg"
+      role="paragraph"
+      type="p2"
+    >
+      ...
+    </p>
+    <p
+      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      role="paragraph"
+      type="p2"
+    >
+      20
+    </p>
+  </div>
+  <div
+    class="sc-AxgMl dwMxzJ"
+  >
+    <p
+      class="sc-AxjAm bKicft"
+      role="paragraph"
+      type="p2"
+    >
+      Próxima
+    </p>
+  </div>
+</div>
+`;

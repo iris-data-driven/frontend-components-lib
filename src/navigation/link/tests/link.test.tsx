@@ -1,10 +1,24 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { render, waitFor, fireEvent } from '@testing-library/react';
+import { render, screen, waitFor, fireEvent } from '@testing-library/react';
 
 import TestingLinkApp from './utils/TestingLinkApp';
 
 describe('Link', () => {
+  it('Should match the snapshot', () => {
+    const text = 'Link text';
+
+    render(
+      <Router>
+        <TestingLinkApp text={text} />
+      </Router>
+    );
+
+    const component = screen.getByRole('link');
+
+    expect(component).toMatchSnapshot();
+  });
+
   it('Should render foo text correctly', async () => {
     const text = 'Link text';
 
