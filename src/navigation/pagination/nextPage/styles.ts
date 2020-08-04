@@ -1,8 +1,12 @@
-import styled from 'styled-components';
+import styled, { AnyStyledComponent } from 'styled-components';
 
 import colors from 'styles/colors';
 
 import { WrapperType } from './types';
+
+import { ReactComponent as IconSVG } from '../media/changePageIcon.svg';
+
+// const IconSVG = require('../media/changePageIcon.svg') as AnyStyledComponent;
 
 export const Wrapper = styled.div<WrapperType>`
   display: flex;
@@ -11,23 +15,19 @@ export const Wrapper = styled.div<WrapperType>`
   user-select: none;
 
   p,
-  img,
-  svg,
-  path {
+  svg {
     cursor: ${props => (props.isClickable ? 'pointer' : 'not-allowed')};
     color: ${props =>
       props.isClickable ? colors.primary.blue : colors.neutral.greyDark};
+    fill: ${props =>
+      props.isClickable ? colors.primary.blue : colors.neutral.greyDark};
+    user-select: none;
     margin: 0;
-    .st0 {
-      fill: ${props =>
-        props.isClickable ? colors.primary.blue : colors.neutral.greyDark};
-    }
-    fill: ${colors.neutral.greyDark};
   }
 `;
 
-export const NextPageIcon = styled.img`
-  height: 32px;
+export const NextPageIcon = styled(IconSVG)`
+  height: 25px;
   transform: rotate(180deg);
-  fill: ${colors.neutral.greyDark};
+  margin: 0;
 `;

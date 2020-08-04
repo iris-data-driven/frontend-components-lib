@@ -5,7 +5,7 @@ import { StoryWrapper } from 'styles/helpers';
 import PaginationComponent from './';
 
 export default {
-  title: 'Pagination|Pagination',
+  title: 'Navigation|Pagination',
 };
 export const Pagination = () => (
   <StoryWrapper>

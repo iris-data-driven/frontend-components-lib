@@ -11,8 +11,6 @@ const NextPage: FC<NextPageProps> = ({
   changePage,
   totalPages,
 }) => {
-  const NextIcon = require('./back.svg');
-
   const nextPage = currentPage + 1;
   const isClickable = nextPage <= totalPages;
 
@@ -22,8 +20,8 @@ const NextPage: FC<NextPageProps> = ({
       isClickable={isClickable}
       role="next-page-button"
     >
-      <Paragraph type="p2">Próxima</Paragraph>
-      <NextPageIcon src={NextIcon} alt="Next Page" />
+      <Paragraph type="p4">Próxima</Paragraph>
+      <NextPageIcon />
     </Wrapper>
   );
 };

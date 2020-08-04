@@ -21,7 +21,7 @@ export const Pages: FC<PagesProps> = ({
         <PageButton
           key={value}
           value={value}
-          active={currentPage == value}
+          active={currentPage === value}
           onClick={() => changePage(value)}
           type="p2"
         >

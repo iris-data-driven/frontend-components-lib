@@ -1,16 +1,32 @@
-import styled from 'styled-components';
+import styled, { AnyStyledComponent } from 'styled-components';
 
 import colors from 'styles/colors';
 
 import { WrapperType } from './types';
 
+import { ReactComponent as IconSVG } from '../media/changePageIcon.svg';
+
+// const IconSVG = require('../media/changePageIcon.svg') as AnyStyledComponent;
+
 export const Wrapper = styled.div<WrapperType>`
-  p {
+  display: flex;
+  align-items: center;
+  transition: color 0.5s;
+  user-select: none;
+
+  p,
+  svg {
     cursor: ${props => (props.isClickable ? 'pointer' : 'not-allowed')};
     color: ${props =>
       props.isClickable ? colors.primary.blue : colors.neutral.greyDark};
-    transition: color 0.5s;
+    fill: ${props =>
+      props.isClickable ? colors.primary.blue : colors.neutral.greyDark};
     user-select: none;
     margin: 0;
   }
+`;
+
+export const PreviousPageIcon = styled(IconSVG)`
+  height: 25px;
+  margin: 0;
 `;

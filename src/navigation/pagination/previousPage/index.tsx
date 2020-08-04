@@ -2,14 +2,16 @@ import React, { FC } from 'react';
 
 import Paragraph from 'typography/paragraph';
 
-import { Wrapper } from './styles';
+import { Wrapper, PreviousPageIcon } from './styles';
 
 import { PreviousPageProps } from './types';
 
-export const PreviousPage: FC<PreviousPageProps> = ({
+export const PreviousPageComponent: FC<PreviousPageProps> = ({
   currentPage,
   changePage,
 }) => {
+  const PreviousIcon = require('../media/changePageIcon.svg');
+
   const previousPage = currentPage - 1;
   const isClickable = currentPage > 1;
 
@@ -18,12 +20,10 @@ export const PreviousPage: FC<PreviousPageProps> = ({
       onClick={() => isClickable && changePage(previousPage)}
       isClickable={isClickable}
     >
-      {
-        // TODO: botar icon de anterior
-      }
-      <Paragraph type="p2">Anterior</Paragraph>
+      <PreviousPageIcon src={PreviousIcon} alt="Página anterior" />
+      <Paragraph type="p4">Anterior</Paragraph>
     </Wrapper>
   );
 };
 
-export default PreviousPage;
+export default PreviousPageComponent;
