@@ -4,7 +4,8 @@ import colors from 'styles/colors';
 
 import { WrapperType } from './types';
 
-import { ReactComponent as IconSVG } from '../media/changePageIcon.svg';
+// import { ReactComponent as IconSVG } from '../media/changePageIcon.svg';
+import IconSVG from '../media/changePageIcon.svg';
 
 // const IconSVG = require('../media/changePageIcon.svg') as AnyStyledComponent;
 
