@@ -5,7 +5,6 @@ module.exports = {
   testPathIgnorePatterns: ['node_modules/'],
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
-    '^.+\\.svg$': '<rootDir>/svgTransform.js',
   },
   testMatch: ['**/*.test.(ts|tsx)'],
   moduleNameMapper: {
