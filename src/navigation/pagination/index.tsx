@@ -8,11 +8,12 @@ import { Wrapper } from './styles';
 
 import { PaginationProps } from './types';
 
-const Pagination: FC<PaginationProps> = ({ totalPages, onChangePage }) => {
-  const [currentPage, setcurrentPage] = useState(1);
-
+const Pagination: FC<PaginationProps> = ({
+  currentPage,
+  totalPages,
+  onChangePage,
+}) => {
   const changePage = (page: number) => {
-    setcurrentPage(page);
     onChangePage(page);
   };
 
@@ -32,4 +33,9 @@ const Pagination: FC<PaginationProps> = ({ totalPages, onChangePage }) => {
     </Wrapper>
   );
 };
+
+Pagination.defaultProps = {
+  currentPage: 1,
+};
+
 export default Pagination;

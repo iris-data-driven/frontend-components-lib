@@ -2,67 +2,80 @@
 
 exports[`Pagination Should match the snapshot 1`] = `
 <div
-  class="sc-AxheI kpKIAc"
+  class="sc-AxmLO dNkSvC"
   role="pagination"
 >
   <div
-    class="sc-AxirZ koqNDf"
+    class="sc-AxirZ dgfyIk"
   >
+    <svg
+      class="sc-AxiKw eQUAoy"
+      enable-background="new 0 0 20.5 20.5"
+      version="1.1"
+      viewBox="0 0 20.5 20.5"
+      x="0"
+      xmlns="http://www.w3.org/2000/svg"
+      y="0"
+    >
+      <path
+        d="M9.4 10.3L13 6.7c.2-.2.2-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.9-.3-1.2 0L7.6 9.7c-.3.3-.3.9 0 1.2l4.2 4.2c.2.2.4.2.6.2.2 0 .4-.1.6-.3.3-.3.3-.8 0-1.2l-3.6-3.5z"
+      />
+    </svg>
     <p
-      class="sc-AxjAm bKicft"
+      class="sc-AxjAm kFUFEV"
       role="paragraph"
-      type="p2"
+      type="p4"
     >
       Anterior
     </p>
   </div>
   <div
-    class="sc-AxiKw drOIHT"
+    class="sc-AxhCb ZaNiK"
   >
     <p
-      class="sc-AxjAm bKicft sc-AxhCb dbRPRi"
+      class="sc-AxjAm bKicft sc-AxhUy bMGwRk"
       role="paragraph"
       type="p2"
     >
       1
     </p>
     <p
-      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
       role="paragraph"
       type="p2"
     >
       2
     </p>
     <p
-      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
       role="paragraph"
       type="p2"
     >
       3
     </p>
     <p
-      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
       role="paragraph"
       type="p2"
     >
       4
     </p>
     <p
-      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
       role="paragraph"
       type="p2"
     >
       5
     </p>
     <p
-      class="sc-AxjAm bKicft sc-AxhUy ipWxVg"
+      class="sc-AxjAm bKicft sc-AxgMl kkvpGq"
       role="paragraph"
       type="p2"
     >
       ...
     </p>
     <p
-      class="sc-AxjAm bKicft sc-AxhCb eEgIxH"
+      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
       role="paragraph"
       type="p2"
     >
@@ -70,15 +83,29 @@ exports[`Pagination Should match the snapshot 1`] = `
     </p>
   </div>
   <div
-    class="sc-AxgMl dwMxzJ"
+    class="sc-AxheI DmWFa"
+    role="next-page-button"
   >
     <p
-      class="sc-AxjAm bKicft"
+      class="sc-AxjAm kFUFEV"
       role="paragraph"
-      type="p2"
+      type="p4"
     >
       Próxima
     </p>
+    <svg
+      class="sc-Axmtr kyZvrQ"
+      enable-background="new 0 0 20.5 20.5"
+      version="1.1"
+      viewBox="0 0 20.5 20.5"
+      x="0"
+      xmlns="http://www.w3.org/2000/svg"
+      y="0"
+    >
+      <path
+        d="M9.4 10.3L13 6.7c.2-.2.2-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.9-.3-1.2 0L7.6 9.7c-.3.3-.3.9 0 1.2l4.2 4.2c.2.2.4.2.6.2.2 0 .4-.1.6-.3.3-.3.3-.8 0-1.2l-3.6-3.5z"
+      />
+    </svg>
   </div>
 </div>
 `;

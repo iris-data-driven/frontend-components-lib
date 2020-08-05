@@ -10,8 +10,6 @@ export const PreviousPageComponent: FC<PreviousPageProps> = ({
   currentPage,
   changePage,
 }) => {
-  const PreviousIcon = require('../media/changePageIcon.svg');
-
   const previousPage = currentPage - 1;
   const isClickable = currentPage > 1;
 
@@ -20,7 +18,7 @@ export const PreviousPageComponent: FC<PreviousPageProps> = ({
       onClick={() => isClickable && changePage(previousPage)}
       isClickable={isClickable}
     >
-      <PreviousPageIcon src={PreviousIcon} alt="Página anterior" />
+      <PreviousPageIcon />
       <Paragraph type="p4">Anterior</Paragraph>
     </Wrapper>
   );

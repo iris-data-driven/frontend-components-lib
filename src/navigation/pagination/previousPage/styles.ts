@@ -1,13 +1,10 @@
-import styled, { AnyStyledComponent } from 'styled-components';
+import styled from 'styled-components';
+
+import SVGIcon from '../arrow';
 
 import colors from 'styles/colors';
 
 import { WrapperType } from './types';
-
-// import { ReactComponent as IconSVG } from '../media/changePageIcon.svg';
-import IconSVG from '../media/changePageIcon.svg';
-
-// const IconSVG = require('../media/changePageIcon.svg') as AnyStyledComponent;
 
 export const Wrapper = styled.div<WrapperType>`
   display: flex;
@@ -27,7 +24,7 @@ export const Wrapper = styled.div<WrapperType>`
   }
 `;
 
-export const PreviousPageIcon = styled(IconSVG)`
+export const PreviousPageIcon = styled(SVGIcon)`
   height: 25px;
   margin: 0;
 `;

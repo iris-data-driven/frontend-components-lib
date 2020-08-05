@@ -8,14 +8,13 @@ import { PageButtonProps } from './types';
 
 export const Wrapper = styled.div`
   display: flex;
-  /* background-color: #f9f9f9; */
 `;
 
 export const PageButton = styled(Paragraph)<PageButtonProps>`
   display: flex;
   user-select: none;
-  border: 0px solid ${colors.primary.blue};
-  border-width: ${props => props.active && '1px'};
+  border: 0px solid ${colors.neutral.blueGrey};
+  border-width: ${props => props.active && '2px'};
   min-width: 32px;
   height: 32px;
   background-color: white;
