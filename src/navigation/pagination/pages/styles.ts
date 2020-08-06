@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   display: flex;
 `;
 
-export const PageButton = styled(Paragraph)<PageButtonProps>`
+export const PageButton = styled.button<PageButtonProps>`
   display: flex;
   user-select: none;
   border: 0px solid ${colors.neutral.blueGrey};
@@ -26,6 +26,7 @@ export const PageButton = styled(Paragraph)<PageButtonProps>`
   border-radius: 7px;
   cursor: pointer;
   margin: 0;
+  outline: none;
 
   & > *:not(:last-child) {
     padding-right: 8px;

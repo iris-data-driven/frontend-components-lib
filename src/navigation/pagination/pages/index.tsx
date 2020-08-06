@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
 
+import Paragraph from 'typography/paragraph';
+
 import { Wrapper, PageButton, Dots } from './styles';
 
 import { pages } from './utils';
@@ -23,9 +25,8 @@ export const Pages: FC<PagesProps> = ({
           value={value}
           active={currentPage === value}
           onClick={() => changePage(value)}
-          type="p2"
         >
-          {value}
+          <Paragraph type="p2">{value}</Paragraph>
         </PageButton>
       )
     )}

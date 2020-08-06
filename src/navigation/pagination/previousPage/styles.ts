@@ -11,6 +11,7 @@ export const Wrapper = styled.div<WrapperType>`
   align-items: center;
   transition: color 0.5s;
   user-select: none;
+  outline: none;
 
   p,
   svg {

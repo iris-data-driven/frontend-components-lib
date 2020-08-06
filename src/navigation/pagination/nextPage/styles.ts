@@ -6,11 +6,14 @@ import colors from 'styles/colors';
 
 import { WrapperType } from './types';
 
-export const Wrapper = styled.div<WrapperType>`
+export const Wrapper = styled.button<WrapperType>`
   display: flex;
   align-items: center;
   transition: color 0.5s;
   user-select: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
 
   p,
   svg {
