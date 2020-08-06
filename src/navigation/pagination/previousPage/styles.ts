@@ -12,6 +12,7 @@ export const Wrapper = styled.div<WrapperType>`
   transition: color 0.5s;
   user-select: none;
   outline: none;
+  margin: 10px;
 
   p,
   svg {

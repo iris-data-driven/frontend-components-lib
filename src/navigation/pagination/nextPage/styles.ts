@@ -14,6 +14,7 @@ export const Wrapper = styled.button<WrapperType>`
   background-color: transparent;
   outline: none;
   border: none;
+  margin: 10px;
 
   p,
   svg {

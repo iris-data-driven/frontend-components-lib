@@ -38,6 +38,24 @@ describe('Pagination', () => {
     expect(props.currentPage).toEqual(2);
   });
 
+  it('Should render the initial stage when the totalPage is less than 7', () => {
+    let newProps = props;
+
+    newProps.totalPages = 6;
+
+    render(<Pagination {...newProps} />);
+    const components = screen.getAllByRole('paragraph');
+
+    expect(components[0].innerHTML).toEqual('Anterior');
+    expect(components[1].innerHTML).toEqual('1');
+    expect(components[2].innerHTML).toEqual('2');
+    expect(components[3].innerHTML).toEqual('3');
+    expect(components[4].innerHTML).toEqual('4');
+    expect(components[5].innerHTML).toEqual('5');
+    expect(components[6].innerHTML).toEqual('6');
+    expect(components[7].innerHTML).toEqual('Próxima');
+  });
+
   it('Should render the initial stage when the page is less than 5', () => {
     render(<Pagination {...props} />);
     const components = screen.getAllByRole('paragraph');

@@ -6,7 +6,7 @@ exports[`Pagination Should match the snapshot 1`] = `
   role="pagination"
 >
   <div
-    class="sc-AxirZ dgfyIk"
+    class="sc-AxirZ dkclld"
   >
     <svg
       class="sc-AxiKw eQUAoy"
@@ -32,41 +32,66 @@ exports[`Pagination Should match the snapshot 1`] = `
   <div
     class="sc-AxhCb ZaNiK"
   >
-    <p
-      class="sc-AxjAm bKicft sc-AxhUy bMGwRk"
-      role="paragraph"
-      type="p2"
+    <button
+      class="sc-AxhUy ljTxcV"
+      value="1"
     >
-      1
-    </p>
-    <p
-      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
-      role="paragraph"
-      type="p2"
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        1
+      </p>
+    </button>
+    <button
+      class="sc-AxhUy llGfPz"
+      value="2"
     >
-      2
-    </p>
-    <p
-      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
-      role="paragraph"
-      type="p2"
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        2
+      </p>
+    </button>
+    <button
+      class="sc-AxhUy llGfPz"
+      value="3"
     >
-      3
-    </p>
-    <p
-      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
-      role="paragraph"
-      type="p2"
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        3
+      </p>
+    </button>
+    <button
+      class="sc-AxhUy llGfPz"
+      value="4"
     >
-      4
-    </p>
-    <p
-      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
-      role="paragraph"
-      type="p2"
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        4
+      </p>
+    </button>
+    <button
+      class="sc-AxhUy llGfPz"
+      value="5"
     >
-      5
-    </p>
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        5
+      </p>
+    </button>
     <p
       class="sc-AxjAm bKicft sc-AxgMl kkvpGq"
       role="paragraph"
@@ -74,16 +99,21 @@ exports[`Pagination Should match the snapshot 1`] = `
     >
       ...
     </p>
-    <p
-      class="sc-AxjAm bKicft sc-AxhUy gfbBNa"
-      role="paragraph"
-      type="p2"
+    <button
+      class="sc-AxhUy llGfPz"
+      value="20"
     >
-      20
-    </p>
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        20
+      </p>
+    </button>
   </div>
-  <div
-    class="sc-AxheI DmWFa"
+  <button
+    class="sc-AxheI hmLRxt"
     role="next-page-button"
   >
     <p
@@ -106,6 +136,6 @@ exports[`Pagination Should match the snapshot 1`] = `
         d="M9.4 10.3L13 6.7c.2-.2.2-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.9-.3-1.2 0L7.6 9.7c-.3.3-.3.9 0 1.2l4.2 4.2c.2.2.4.2.6.2.2 0 .4-.1.6-.3.3-.3.3-.8 0-1.2l-3.6-3.5z"
       />
     </svg>
-  </div>
+  </button>
 </div>
 `;

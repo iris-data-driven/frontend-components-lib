@@ -2,7 +2,13 @@ export const pages = (
   totalPage: number,
   currentPage: number
 ): (number | string)[] => {
-  if (currentPage < 6) {
+  if (totalPage <= 6) {
+    let pages = [];
+    for (let i = 1; i <= totalPage; i++) {
+      pages.push(i);
+    }
+    return pages;
+  } else if (currentPage < 6) {
     return [1, 2, 3, 4, 5, '...', totalPage];
   } else if (currentPage < totalPage - 4) {
     return [
