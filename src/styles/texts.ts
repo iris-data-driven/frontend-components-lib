@@ -111,4 +111,5 @@ export default {
   paragraphs,
   button,
   fonts,
+  sizes,
 };

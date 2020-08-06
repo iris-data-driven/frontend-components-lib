@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Placeholder Should render correctly with circle type 1`] = `
+<div
+  aria-busy="true"
+  class="sc-AxjAm buxUmO"
+  role="progressbar"
+  type="circle"
+/>
+`;
+
+exports[`Placeholder Should render correctly with custom type 1`] = `
+<div
+  aria-busy="true"
+  class="sc-AxjAm cjwarf"
+  role="progressbar"
+  type="custom"
+/>
+`;
+
+exports[`Placeholder Should render correctly with heading type 1`] = `
+<div
+  aria-busy="true"
+  class="sc-AxjAm SHhep"
+  role="progressbar"
+  type="heading"
+/>
+`;
+
+exports[`Placeholder Should render correctly without an implicit type 1`] = `
+<div
+  aria-busy="true"
+  class="sc-AxjAm dvYCKE"
+  role="progressbar"
+  type="text"
+/>
+`;
