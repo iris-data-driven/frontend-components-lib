@@ -5,7 +5,7 @@ import { Wrapper } from './styles';
 import { PlaceholderProps } from './types';
 
 const Placeholder: FC<PlaceholderProps> = props => (
-  <Wrapper {...props} role="progressbar" aria-busy="true" />
+  <Wrapper {...props} role="placeholder-loader" aria-busy="true" />
 );
 
 Placeholder.defaultProps = {
