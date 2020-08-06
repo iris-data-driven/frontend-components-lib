@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Should match the snapshot 1`] = `
+<div
+  class="sc-AxirZ evipuV"
+  role="pagination"
+>
+  <div
+    class="sc-AxiKw iTpMkZ"
+  >
+    <svg
+      class="sc-AxhCb ewgWZW"
+      enable-background="new 0 0 20.5 20.5"
+      version="1.1"
+      viewBox="0 0 20.5 20.5"
+      x="0"
+      xmlns="http://www.w3.org/2000/svg"
+      y="0"
+    >
+      <path
+        d="M9.4 10.3L13 6.7c.2-.2.2-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.9-.3-1.2 0L7.6 9.7c-.3.3-.3.9 0 1.2l4.2 4.2c.2.2.4.2.6.2.2 0 .4-.1.6-.3.3-.3.3-.8 0-1.2l-3.6-3.5z"
+      />
+    </svg>
+    <p
+      class="sc-AxjAm kFUFEV"
+      role="paragraph"
+      type="p4"
+    >
+      Anterior
+    </p>
+  </div>
+  <div
+    class="sc-AxhUy gWaiz"
+  >
+    <button
+      class="sc-AxgMl lfEqdP"
+      value="1"
+    >
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        1
+      </p>
+    </button>
+    <button
+      class="sc-AxgMl gCZbzB"
+      value="2"
+    >
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        2
+      </p>
+    </button>
+    <button
+      class="sc-AxgMl gCZbzB"
+      value="3"
+    >
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        3
+      </p>
+    </button>
+    <button
+      class="sc-AxgMl gCZbzB"
+      value="4"
+    >
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        4
+      </p>
+    </button>
+    <button
+      class="sc-AxgMl gCZbzB"
+      value="5"
+    >
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        5
+      </p>
+    </button>
+    <p
+      class="sc-AxjAm bKicft sc-AxheI bSgSTE"
+      role="paragraph"
+      type="p2"
+    >
+      ...
+    </p>
+    <button
+      class="sc-AxgMl gCZbzB"
+      value="20"
+    >
+      <p
+        class="sc-AxjAm bKicft"
+        role="paragraph"
+        type="p2"
+      >
+        20
+      </p>
+    </button>
+  </div>
+  <div
+    class="sc-AxiKw fQuMSW"
+    role="next-page-button"
+  >
+    <p
+      class="sc-AxjAm kFUFEV"
+      role="paragraph"
+      type="p4"
+    >
+      Próxima
+    </p>
+    <svg
+      class="sc-Axmtr kyZvrQ"
+      enable-background="new 0 0 20.5 20.5"
+      version="1.1"
+      viewBox="0 0 20.5 20.5"
+      x="0"
+      xmlns="http://www.w3.org/2000/svg"
+      y="0"
+    >
+      <path
+        d="M9.4 10.3L13 6.7c.2-.2.2-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.9-.3-1.2 0L7.6 9.7c-.3.3-.3.9 0 1.2l4.2 4.2c.2.2.4.2.6.2.2 0 .4-.1.6-.3.3-.3.3-.8 0-1.2l-3.6-3.5z"
+      />
+    </svg>
+  </div>
+</div>
+`;
