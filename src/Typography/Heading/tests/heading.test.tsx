@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import 'jest-styled-components';
 
-import Heading from './';
+import Heading from '../';
 
 describe('Heading', () => {
   it('Should render the h1 with the correct text and style', () => {

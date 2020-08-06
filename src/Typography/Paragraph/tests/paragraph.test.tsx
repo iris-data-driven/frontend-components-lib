@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 
-import Paragraph from './';
+import Paragraph from '../';
 
 describe('Paragraph', () => {
   it('Should render the paragraph with the correct text and style', () => {
