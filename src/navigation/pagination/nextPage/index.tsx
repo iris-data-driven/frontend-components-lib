@@ -2,7 +2,8 @@ import React, { FC } from 'react';
 
 import Paragraph from 'typography/paragraph';
 
-import { Wrapper, NextPageIcon } from './styles';
+import { WrapperButton } from '../styles';
+import { NextPageIcon } from './styles';
 
 import { NextPageProps } from './types';
 
@@ -15,14 +16,14 @@ const NextPage: FC<NextPageProps> = ({
   const isClickable = nextPage <= totalPages;
 
   return (
-    <Wrapper
+    <WrapperButton
       onClick={() => isClickable && changePage(nextPage)}
       isClickable={isClickable}
       role="next-page-button"
     >
       <Paragraph type="p4">Próxima</Paragraph>
       <NextPageIcon />
-    </Wrapper>
+    </WrapperButton>
   );
 };
 

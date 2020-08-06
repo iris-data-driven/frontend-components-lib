@@ -3,7 +3,3 @@ export type NextPageProps = {
   changePage: (page: number) => void;
   totalPages: number;
 };
-
-export type WrapperType = {
-  isClickable: boolean;
-};

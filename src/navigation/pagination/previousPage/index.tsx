@@ -2,7 +2,8 @@ import React, { FC } from 'react';
 
 import Paragraph from 'typography/paragraph';
 
-import { Wrapper, PreviousPageIcon } from './styles';
+import { WrapperButton } from '../styles';
+import { PreviousPageIcon } from './styles';
 
 import { PreviousPageProps } from './types';
 
@@ -14,13 +15,13 @@ export const PreviousPageComponent: FC<PreviousPageProps> = ({
   const isClickable = currentPage > 1;
 
   return (
-    <Wrapper
+    <WrapperButton
       onClick={() => isClickable && changePage(previousPage)}
       isClickable={isClickable}
     >
       <PreviousPageIcon />
       <Paragraph type="p4">Anterior</Paragraph>
-    </Wrapper>
+    </WrapperButton>
   );
 };
 
