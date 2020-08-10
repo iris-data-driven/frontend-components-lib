@@ -1,16 +1,16 @@
 export default {
-  primarys: {
+  primary: {
     orange: '#FF6F1E',
     red: '#F33820',
     blue: '#012496',
   },
-  neutrals: {
+  neutral: {
     black: '#333',
     greyDark: '#444',
     greyLight: '#B2B2B2',
     blueGrey: '#CCCFE4',
   },
-  semantics: {
+  semantic: {
     green: {
       primary: '#00E95C',
       secondary: '#77D401',

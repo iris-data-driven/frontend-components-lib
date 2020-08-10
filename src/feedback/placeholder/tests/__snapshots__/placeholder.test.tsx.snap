@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Placeholder Should render correctly with circle type 1`] = `
+<div
+  aria-busy="true"
+  class="sc-AxjAm buxUmO"
+  role="placeholder-loader"
+  type="circle"
+/>
+`;
+
+exports[`Placeholder Should render correctly with custom type 1`] = `
+<div
+  aria-busy="true"
+  class="sc-AxjAm cjwarf"
+  role="placeholder-loader"
+  type="custom"
+/>
+`;
+
+exports[`Placeholder Should render correctly with heading type 1`] = `
+<div
+  aria-busy="true"
+  class="sc-AxjAm hiZUKR"
+  role="placeholder-loader"
+  type="heading"
+/>
+`;
+
+exports[`Placeholder Should render correctly without an implicit type 1`] = `
+<div
+  aria-busy="true"
+  class="sc-AxjAm kNpHOQ"
+  role="placeholder-loader"
+  type="text"
+/>
+`;

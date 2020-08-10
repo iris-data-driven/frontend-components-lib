@@ -1,6 +1,5 @@
-import TestComponent from "./TestComponent/TestComponent";
-import colors from "./styles/colors";
+import Heading from './Typography/Heading';
 
-//import styles from 'react-component-library/build/styles';
+import colors from './styles/colors';
 
-export { TestComponent, colors };
+export { Heading, colors };

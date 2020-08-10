@@ -1,23 +1,23 @@
 module.exports = componentName => ({
   content: `import React from "react";
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
-import ${componentName} from "./${componentName}";
+import ${componentName} from "./";
 
-import { ${componentName}Props } from "./${componentName}.types";
+import { ${componentName}Props } from "./types";
 
-describe("Test Component", () => {
+describe("${componentName}", () => {
   let props: ${componentName}Props;
   beforeEach(() => {
     props = {
       foo: "bar"
     };
   });
-  const renderComponent = () => render(<${componentName} {...props} />);
+  
   it("Should render foo text correctly", () => {
     props.foo = "harvey was here";
-    const { getByTestId } = renderComponent();
-    const component = getByTestId("${componentName}");
+    render(<${componentName} {...props} />);
+    const component = screen.getByTestId("${componentName.toLowerCase()}");
     expect(component).toHaveTextContent("harvey was here");
   });
 });

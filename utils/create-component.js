@@ -11,7 +11,7 @@ if (!componentName) {
 
 console.log('Creating Component Templates with name: ' + componentName);
 
-const componentDirectory = `./src/${componentName}`;
+const componentDirectory = `./src/${componentName.toLocaleLowerCase()}`;
 
 if (fs.existsSync(componentDirectory)) {
   console.error(`Component ${componentName} already exists.`.red);
@@ -24,7 +24,11 @@ const generatedTemplates = templates.map(template => template(componentName));
 
 generatedTemplates.forEach(template => {
   fs.writeFileSync(
-    `${componentDirectory}/${componentName}${template.extension}`,
+    `${componentDirectory}/${
+      template.extension.includes('test')
+        ? componentName + template.extension
+        : template.extension
+    }`,
     template.content
   );
 });
