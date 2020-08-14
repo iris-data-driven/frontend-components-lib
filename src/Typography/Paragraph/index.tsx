@@ -4,10 +4,14 @@ import { Wrapper } from './styles';
 
 import { ParagraphProps } from './types';
 
-const Paragraph: FC<ParagraphProps> = ({ type, children }) => (
-  <Wrapper role="paragraph" type={type}>
+const Paragraph: FC<ParagraphProps> = ({ type, children, className }) => (
+  <Wrapper role="paragraph" type={type} className={className}>
     {children}
   </Wrapper>
 );
+
+Paragraph.defaultProps = {
+  type: 'p1',
+};
 
 export default Paragraph;
