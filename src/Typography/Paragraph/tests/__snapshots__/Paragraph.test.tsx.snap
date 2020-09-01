@@ -2,7 +2,7 @@
 
 exports[`Paragraph Should render the paragraph with the correct text and style 1`] = `
 <p
-  class="sc-AxjAm kXrFfC"
+  class="sc-AxjAm iAGhph"
   role="paragraph"
   type="p1"
 >
@@ -12,7 +12,7 @@ exports[`Paragraph Should render the paragraph with the correct text and style 1
 
 exports[`Paragraph Should render the paragraph with the correct text and style 2`] = `
 <p
-  class="sc-AxjAm bKicft"
+  class="sc-AxjAm cllMKu"
   role="paragraph"
   type="p2"
 >
@@ -22,7 +22,7 @@ exports[`Paragraph Should render the paragraph with the correct text and style 2
 
 exports[`Paragraph Should render the paragraph with the correct text and style 3`] = `
 <p
-  class="sc-AxjAm mCUtu"
+  class="sc-AxjAm fUUqhx"
   role="paragraph"
   type="p3"
 >
@@ -32,7 +32,7 @@ exports[`Paragraph Should render the paragraph with the correct text and style 3
 
 exports[`Paragraph Should render the paragraph with the correct text and style 4`] = `
 <p
-  class="sc-AxjAm kFUFEV"
+  class="sc-AxjAm eqfLW"
   role="paragraph"
   type="p4"
 >

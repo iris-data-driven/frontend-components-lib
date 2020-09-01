@@ -6,7 +6,7 @@ exports[`Pagination Should match the snapshot 1`] = `
   role="pagination"
 >
   <div
-    class="sc-AxiKw iTpMkZ"
+    class="sc-AxiKw hdTEQZ"
   >
     <svg
       class="sc-AxhCb ewgWZW"
@@ -22,7 +22,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       />
     </svg>
     <p
-      class="sc-AxjAm kFUFEV"
+      class="sc-AxjAm eqfLW"
       role="paragraph"
       type="p4"
     >
@@ -37,7 +37,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       value="1"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -49,7 +49,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       value="2"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -61,7 +61,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       value="3"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -73,7 +73,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       value="4"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -85,7 +85,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       value="5"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -93,7 +93,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <p
-      class="sc-AxjAm bKicft sc-AxheI bSgSTE"
+      class="sc-AxjAm cllMKu sc-AxheI bSgSTE"
       role="paragraph"
       type="p2"
     >
@@ -104,7 +104,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       value="20"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -117,7 +117,7 @@ exports[`Pagination Should match the snapshot 1`] = `
     role="next-page-button"
   >
     <p
-      class="sc-AxjAm kFUFEV"
+      class="sc-AxjAm eqfLW"
       role="paragraph"
       type="p4"
     >
