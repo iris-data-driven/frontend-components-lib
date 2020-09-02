@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import CloseButton from './closeButton';
+import CloseButton from './CloseButton';
 
 import { Modal, Wrapper, getModalStyle, Line, Content } from './styles';
 

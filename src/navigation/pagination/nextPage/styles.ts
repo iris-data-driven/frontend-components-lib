@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import SVGIcon from '../arrow';
+import SVGIcon from '../Arrow';
 
 export const NextPageIcon = styled(SVGIcon)`
   height: 25px;

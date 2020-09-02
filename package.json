@@ -31,7 +31,8 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
-    "styled-components": ">=5.0.0"
+    "styled-components": ">=5.0.0",
+    "react-toastify": ">=6.0.8"
   },
   "devDependencies": {
     "@babel/core": "7.10.2",
@@ -86,6 +87,7 @@
   },
   "dependencies": {
     "react-modal": "3.11.2",
+    "react-toastify": "6.0.8",
     "styled-components": "5.1.1"
   }
 }

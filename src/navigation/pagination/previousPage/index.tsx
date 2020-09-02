@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import Paragraph from 'typography/paragraph';
+import Paragraph from 'typography/Paragraph';
 
 import { WrapperButton } from '../styles';
 import { PreviousPageIcon } from './styles';

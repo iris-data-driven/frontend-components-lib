@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import Paragraph from 'typography/paragraph';
+import Paragraph from 'typography/Paragraph';
 
 import { Wrapper, PageButton, Dots } from './styles';
 
