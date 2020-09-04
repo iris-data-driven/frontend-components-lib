@@ -6,4 +6,5 @@ export type StyledHeadingProps = HeadingProps & {
 
 export type HeadingProps = {
   type: HeadingTypes;
+  className?: string;
 };
