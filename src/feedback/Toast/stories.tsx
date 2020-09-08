@@ -13,7 +13,7 @@ export const Error = () => (
     <Container />
     <button
       onClick={() =>
-        toast.error('Erro!', 'Entre em contato com a equipe técnica')
+        toast('Erro!', 'Entre em contato com a equipe técnica', 'error')
       }
     >
       Click me!
@@ -26,7 +26,7 @@ export const Warning = () => (
     <Container />
     <button
       onClick={() =>
-        toast.warning('Aviso!', 'Entre em contato com a equipe técnica')
+        toast('Aviso!', 'Entre em contato com a equipe técnica', 'warning')
       }
     >
       Click me!
@@ -39,7 +39,7 @@ export const Success = () => (
     <Container />
     <button
       onClick={() =>
-        toast.warning('Sucesso!', 'Entre em contato com a equipe técnica')
+        toast('Sucesso!', 'Entre em contato com a equipe técnica', 'success')
       }
     >
       Click me!

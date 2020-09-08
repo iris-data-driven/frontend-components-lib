@@ -8,9 +8,14 @@ export const ToastContainer = styled(ToastContainerOriginal).attrs(() => ({
   role: 'alert',
   autoClose: false,
 }))`
+  .Toastify__toast-container {
+    width: 383px;
+  }
+
   .Toastify__toast {
     background-color: #fff;
     border-radius: 3px;
+
     &::before {
       content: '';
       position: absolute;
@@ -25,6 +30,21 @@ export const ToastContainer = styled(ToastContainerOriginal).attrs(() => ({
       &::before {
         background-color: ${colors.primary.red};
       }
+    }
+
+    &.Toastify__toast--warning {
+      &::before {
+        background-color: ${colors.semantic.orange.secondary};
+      }
+    }
+
+    &.Toastify__toast--success {
+      &::before {
+        background-color: ${colors.semantic.blue.secondary};
+      }
+    }
+
+    .Toastify__close-button {
     }
   }
 

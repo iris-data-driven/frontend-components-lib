@@ -17,8 +17,9 @@ export default (
   title: string,
   description: string,
   type: 'success' | 'error' | 'warning'
-) =>
+) => {
   toast[type](
     <Info title={title} description={description} type={type} />,
     config
   );
+};
