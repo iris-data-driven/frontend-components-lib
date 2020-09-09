@@ -4,8 +4,8 @@ import { toast, ToastOptions } from 'react-toastify';
 import Info from './Info';
 
 const config: ToastOptions = {
-  position: 'top-right',
-  autoClose: false,
+  position: 'bottom-right',
+  autoClose: 8000,
   hideProgressBar: false,
   closeOnClick: true,
   pauseOnHover: true,

@@ -4,14 +4,13 @@ import { ToastContainer as ToastContainerOriginal } from 'react-toastify';
 import { colors } from 'styles';
 import 'react-toastify/dist/ReactToastify.css';
 
-export const ToastContainer = styled(ToastContainerOriginal).attrs(() => ({
-  role: 'alert',
-  autoClose: false,
-}))`
+export const Wrapper = styled.div`
   .Toastify__toast-container {
     width: 383px;
   }
+`;
 
+export const ToastContainer = styled(ToastContainerOriginal)`
   .Toastify__toast {
     background-color: #fff;
     border-radius: 3px;
@@ -44,17 +43,15 @@ export const ToastContainer = styled(ToastContainerOriginal).attrs(() => ({
       }
     }
 
-    .Toastify__close-button {
+    .Toastify__toast-body {
+      display: flex;
+      align-items: center;
     }
-  }
 
-  .Toastify__toast-body {
-    display: flex;
-    align-items: center;
-  }
-
-  .Toastify__close-button {
-    align-self: center;
-    color: #bfc0c3;
+    .Toastify__close-button {
+      align-self: center;
+      color: #bfc0c3;
+      margin-left: 10px;
+    }
   }
 `;
