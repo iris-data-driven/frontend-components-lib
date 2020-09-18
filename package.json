@@ -32,7 +32,9 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "styled-components": ">=5.0.0",
-    "react-toastify": ">=6.0.8"
+    "react-modal": ">=3.11.2",
+    "react-toastify": ">=6.0.8",
+    "react-tooltip": ">=4.2.9"
   },
   "devDependencies": {
     "@babel/core": "7.10.2",
@@ -83,11 +85,10 @@
     "rollup-plugin-typescript2": "0.27.1",
     "sass-loader": "8.0.2",
     "ts-jest": "26.1.0",
-    "typescript": "3.9.7"
-  },
-  "dependencies": {
+    "typescript": "3.9.7",
     "react-modal": "3.11.2",
     "react-toastify": "6.0.8",
+    "react-tooltip": "4.2.9",
     "styled-components": "5.1.1"
   }
 }

@@ -33,7 +33,7 @@ exports[`Pagination Should match the snapshot 1`] = `
     class="sc-AxhUy gWaiz"
   >
     <button
-      class="sc-AxgMl lfEqdP"
+      class="sc-AxgMl fuoOev"
       value="1"
     >
       <p
@@ -45,7 +45,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="2"
     >
       <p
@@ -57,7 +57,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="3"
     >
       <p
@@ -69,7 +69,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="4"
     >
       <p
@@ -81,7 +81,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="5"
     >
       <p
@@ -100,7 +100,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       ...
     </p>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="20"
     >
       <p
