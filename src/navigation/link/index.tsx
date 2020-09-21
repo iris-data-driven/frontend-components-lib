@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 
-import Paragraph from 'typography/paragraph';
+import Paragraph from 'typography/Paragraph';
 
 import { LinkProps } from './types';
 

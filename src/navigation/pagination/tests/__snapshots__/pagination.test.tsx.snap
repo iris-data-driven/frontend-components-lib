@@ -6,7 +6,7 @@ exports[`Pagination Should match the snapshot 1`] = `
   role="pagination"
 >
   <div
-    class="sc-AxiKw iTpMkZ"
+    class="sc-AxiKw hdTEQZ"
   >
     <svg
       class="sc-AxhCb ewgWZW"
@@ -22,7 +22,7 @@ exports[`Pagination Should match the snapshot 1`] = `
       />
     </svg>
     <p
-      class="sc-AxjAm kFUFEV"
+      class="sc-AxjAm eqfLW"
       role="paragraph"
       type="p4"
     >
@@ -33,11 +33,11 @@ exports[`Pagination Should match the snapshot 1`] = `
     class="sc-AxhUy gWaiz"
   >
     <button
-      class="sc-AxgMl lfEqdP"
+      class="sc-AxgMl fuoOev"
       value="1"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -45,11 +45,11 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="2"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -57,11 +57,11 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="3"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -69,11 +69,11 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="4"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -81,11 +81,11 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="5"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -93,18 +93,18 @@ exports[`Pagination Should match the snapshot 1`] = `
       </p>
     </button>
     <p
-      class="sc-AxjAm bKicft sc-AxheI bSgSTE"
+      class="sc-AxjAm cllMKu sc-AxheI bSgSTE"
       role="paragraph"
       type="p2"
     >
       ...
     </p>
     <button
-      class="sc-AxgMl gCZbzB"
+      class="sc-AxgMl lfPyV"
       value="20"
     >
       <p
-        class="sc-AxjAm bKicft"
+        class="sc-AxjAm cllMKu"
         role="paragraph"
         type="p2"
       >
@@ -117,7 +117,7 @@ exports[`Pagination Should match the snapshot 1`] = `
     role="next-page-button"
   >
     <p
-      class="sc-AxjAm kFUFEV"
+      class="sc-AxjAm eqfLW"
       role="paragraph"
       type="p4"
     >

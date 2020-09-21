@@ -5,8 +5,8 @@ export default {
     blue: '#012496',
   },
   neutral: {
-    black: '#333',
-    greyDark: '#444',
+    black: '#333333',
+    greyDark: '#444444',
     greyLight: '#B2B2B2',
     blueGrey: '#CCCFE4',
   },

@@ -1,8 +1,8 @@
-import React, { FC, useState } from 'react';
+import React, { FC } from 'react';
 
-import PreviousPage from './previousPage';
-import Pages from './pages';
-import NextPage from './nextPage';
+import PreviousPage from './PreviousPage';
+import Pages from './Pages';
+import NextPage from './NextPage';
 
 import { Wrapper } from './styles';
 

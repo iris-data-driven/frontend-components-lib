@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import Paragraph from 'typography/paragraph';
+import Paragraph from 'typography/Paragraph';
 
 import { colors } from 'styles';
 

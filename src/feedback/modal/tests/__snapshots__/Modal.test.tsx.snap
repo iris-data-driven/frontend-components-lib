@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Large modal should match snapshot 1`] = `
+<div
+  class="sc-AxiKw jfZNqm"
+  data-testid="modal"
+>
+  <div
+    class="sc-AxgMl ehcYrB"
+  />
+  <div
+    class="sc-AxjAm edSmYc"
+  >
+    <svg
+      aria-label="close modal"
+      class="sc-AxirZ ffwRQR"
+      height="24"
+      role="button"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
+        fill="#F33820"
+      />
+      <path
+        d="M8.421 8.774l7.004 7.005M15.426 8.773L8.42 15.778"
+        stroke="#fff"
+        stroke-linecap="round"
+        stroke-width="2"
+      />
+    </svg>
+  </div>
+  <div
+    class="sc-AxhCb cxUhWV"
+  />
+</div>
+`;
+
+exports[`Modal Medium modal should match snapshot 1`] = `
+<div
+  class="sc-AxiKw jfZNqm"
+  data-testid="modal"
+>
+  <div
+    class="sc-AxgMl ehcYrB"
+  />
+  <div
+    class="sc-AxjAm edSmYc"
+  >
+    <svg
+      aria-label="close modal"
+      class="sc-AxirZ ffwRQR"
+      height="24"
+      role="button"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
+        fill="#F33820"
+      />
+      <path
+        d="M8.421 8.774l7.004 7.005M15.426 8.773L8.42 15.778"
+        stroke="#fff"
+        stroke-linecap="round"
+        stroke-width="2"
+      />
+    </svg>
+  </div>
+  <div
+    class="sc-AxhCb cxUhWV"
+  />
+</div>
+`;
